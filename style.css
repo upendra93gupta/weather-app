@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #1e90ff;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.weather-container {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+}
+
+input, button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 90%;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #222;
+  color: white;
+  cursor: pointer;
+}
